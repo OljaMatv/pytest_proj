@@ -6,8 +6,6 @@ def test_get():
     assert arrs.get([1], 0, "test") == 1
     assert arrs.get([1, 2, 3], -1, "test") != []
 
-if __name__ == '__main__':
-    test_get()
 
 
 def test_slice():
@@ -25,6 +23,3 @@ def test_slice():
 
 
 
-
-if __name__ == '__main__':
-    test_get()
